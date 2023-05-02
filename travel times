@@ -1,0 +1,5 @@
+data=read.csv(file="C:/Users/USER/Downloads")
+View(data)
+hist(data$AvgSpeed)
+mean(data$MaxSpeed)
+scatter.smooth(data$AvgSpeed.data$MaxSpeed)
