@@ -1,0 +1,6 @@
+a<-mtcars
+a
+library(plotrix)
+pie3D(a$mpg,radius=0.5,height=0.15)
+pie(a$disp)
+pie(a$mpg,title="mtcars",colour=factor(disp))
