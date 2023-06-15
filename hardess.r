@@ -1,0 +1,10 @@
+library(HSAUR)
+a<-water
+a
+linear<-lm(mortality~hardness,data=a)
+linear
+summary(linear)
+new<-data.frame(hardness=90)
+new
+pre<-predict(linear,new)
+pre
